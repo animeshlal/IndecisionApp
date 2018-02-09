@@ -1,9 +1,5 @@
-// import { square } from './utils.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// console.log('app.js is running!');
-// console.log(square(4));
-
-import { isAdult, canDrink } from './person.js';
-
-console.log(isAdult(17));
-console.log(canDrink(23));
+const jsx = <p>This is JSX from Webpack</p>;
+ReactDOM.render(jsx,document.getElementById('app'));
